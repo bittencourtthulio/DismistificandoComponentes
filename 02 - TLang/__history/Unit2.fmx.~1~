@@ -1,0 +1,55 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Align = Top
+    StyledSettings = [Family, Style, FontColor]
+    Size.Width = 640.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.HorzAlign = Center
+    Text = 'Label1'
+  end
+  object Button1: TButton
+    Align = Top
+    Position.Y = 41.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Button1'
+  end
+  object ComboBox1: TComboBox
+    Items.Strings = (
+      'BR'
+      'EN')
+    Position.X = 232.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    OnChange = ComboBox1Change
+  end
+  object Lang1: TLang
+    Left = 440
+    Top = 128
+    ResourcesBin = {
+      190000004C006100620065006C0031000D000A0042007500740074006F006E00
+      31000D000A0053006F0075007200630065000D000A0002000000020000004200
+      5200260000004C006100620065006C0031003D004E006F006D00650020006400
+      61002000410070006C00690063006100E700E3006F000D000A00420075007400
+      74006F006E0031003D004F004B000D000A000200000045004E002A0000004C00
+      6100620065006C0031003D004100700070006C00690063006100740069006F00
+      6E000D000A0042007500740074006F006E0031003D0043006F006E0066006900
+      72006D006100740069006F006E000D000A00}
+  end
+end
